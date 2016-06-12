@@ -2,7 +2,7 @@
 ##a simple and powerful php router,just have fun!
 
 ###Useage
-
+```php
   <?php
   $route = new Route(array(
       'errorHandle'=>function(){
@@ -17,3 +17,4 @@
   $route->get('/user[/{id:\d+}[/{name}]]','handle');//
   
   //suport method get,post,put,delete,options,head
+```
