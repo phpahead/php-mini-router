@@ -16,5 +16,8 @@
   $route->get('/user/{name:.+}','handle');
   $route->get('/user[/{id:\d+}[/{name}]]','handle');//
   
-  //suport method get,post,put,delete,options,head
+  //suport method :get,post,put,delete,options,head
+  //suport handle :Anonymous functions and controller
+  
+  $route->dispatch();
 ```
